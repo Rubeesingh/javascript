@@ -59,3 +59,22 @@ const myFunction = function(){
 // stack used (primitive ) heap(non-primtive)
 
 let myHomeName = "simonsuri"
+
+let anotherName = myHomeName
+anotherName = "rushisi"
+
+console.log(myHomeName);
+console.log(anotherName);
+
+let userOne ={
+    email: "user@google.com",
+    upi: "user@ybl"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "rushi@google.com"
+
+console.log(userOne.email);
+console.log(userTwo);
